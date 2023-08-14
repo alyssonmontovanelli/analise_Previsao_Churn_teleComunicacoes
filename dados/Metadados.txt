@@ -1,0 +1,21 @@
+0 customerID        7043 non-null   object 
+ 1   gender            Sexo 
+ 2   SeniorCitizen     Se é idoso ou não (1/0) 
+ 3   Partner           Se cliente tem sócio ou não (Sim/Não)
+ 4   Dependents        Se o cliente possui dependentes ou não (Sim, Não) 
+ 5   tenure            Número de meses que o cliente permaneceu na empresa  
+ 6   PhoneService      Se o cliente tem atendimento telefônico ou não (Sim, Não) 
+ 7   MultipleLines     Se o cliente tem várias linhas ou não (Sim, Não, Sem atendimento telefônico) 
+ 8   InternetService   Provedor de serviços de internet do cliente (DSL, Fibra ótica, Não) 
+ 9   OnlineSecurity    Se o cliente tem segurança online ou não (Sim, Não, Sem serviço de internet) 
+ 10  OnlineBackup      Se o cliente tem backup online ou não (Sim, Não, Sem serviço de internet) 
+ 11  DeviceProtection  Se o cliente tem proteção de dispositivo ou não (Sim, Não, Sem serviço de internet) 
+ 12  TechSupport       Se o cliente tem suporte técnico ou não (Sim, Não, Sem serviço de internet)
+ 13  StreamingTV       Se o cliente tem streaming de TV ou não (Sim, Não, Sem serviço de internet)
+ 14  StreamingMovies   Se o cliente tem streaming de filmes ou não (sim, não, sem serviço de internet) 
+ 15  Contract          O prazo do contrato do cliente (mês a mês, um ano, dois anos) 
+ 16  PaperlessBilling  Se o cliente tem faturamento sem papel ou não (Sim, Não) 
+ 17  PaymentMethod     O método de pagamento do cliente (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)) 
+ 18  MonthlyCharges    O valor cobrado mensalmente do cliente
+ 19  TotalCharges      O valor total cobrado do cliente 
+ 20  Churn             Se o cliente desistiu ou não (Sim ou Não) 
