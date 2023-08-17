@@ -22,6 +22,15 @@ from sklearn.metrics import roc_curve, auc, roc_auc_score, confusion_matrix
 from sklearn.metrics import accuracy_score
 
 '''
+Import para balanceamento de classe
+'''
+import imblearn
+from imblearn.over_sampling import SMOTE
+
+
+
+
+'''
 Mapeamento idoso
 '''
 map_idoso = {
