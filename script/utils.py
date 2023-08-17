@@ -3,12 +3,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sklearn
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler, StandardScaler
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 import sklearn
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler, StandardScaler
 
+'''
+Imports para modelagem
+'''
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
+from sklearn.metrics import roc_curve, auc, roc_auc_score, confusion_matrix
+from sklearn.metrics import accuracy_score
 
 '''
 Mapeamento idoso

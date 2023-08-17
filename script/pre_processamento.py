@@ -52,6 +52,10 @@ for n in nums_valores:
 
 print(dados.sample(10))
 
+# Salvando novo dataset processado
+dados.to_csv('./dados/dados_processados.csv', sep=',', encoding = 'utf-8', index = False)
+
+
 
 
 
