@@ -55,14 +55,15 @@ def map_fidelidade(mes):
         return '+5 anos'
 
 
-cats = ['fidelidade', 'idoso', 'casado(a)', 'possuiDependente', 'servico_internet',
+cats = ['idoso', 'casado(a)', 'possuiDependente', 'servico_internet',
         'suporte_tecnico', 'Streaming_TV', 'contrato','fatura_sem_papel',
         'forma_pagamento']
 
+# # 'fidelidade_+5 anos', 'fidelidade_-1 ano',
+#        'fidelidade_1 a 2 anos', 'fidelidade_2 a 3 anos',
+#        'fidelidade_3 a 4 anos', 'fidelidade_4 a 5 anos', 
 
-variaveis_processadas = ['fidelidade_+5 anos', 'fidelidade_-1 ano',
-       'fidelidade_1 a 2 anos', 'fidelidade_2 a 3 anos',
-       'fidelidade_3 a 4 anos', 'fidelidade_4 a 5 anos', 'idoso_No',
+variaveis_processadas = ['idoso_No',
        'idoso_Yes', 'casado(a)_No', 'casado(a)_Yes', 'possuiDependente_No',
        'possuiDependente_Yes', 'servico_internet_DSL',
        'servico_internet_Fiber optic', 'servico_internet_No',
@@ -75,4 +76,4 @@ variaveis_processadas = ['fidelidade_+5 anos', 'fidelidade_-1 ano',
        'forma_pagamento_Credit card (automatic)',
        'forma_pagamento_Electronic check', 'forma_pagamento_Mailed check']
 
-nums_valores = ['valor_mensal', 'valor_total_pago']
+nums_valores = ['fidelidade', 'valor_mensal', 'valor_total_pago']

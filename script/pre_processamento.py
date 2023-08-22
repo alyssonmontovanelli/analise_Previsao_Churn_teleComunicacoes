@@ -23,7 +23,7 @@ Aplicando One Hot Encoding nas categóricas nominais de entrada
 # Alterando variavel 'idoso' para str() com 'Yes' e 'No' para aplicar o encoding
 # Alterando variavel 'fidelidade' para categoria
 dados['idoso'] = dados['idoso'].map(map_idoso)
-dados['fidelidade'] = dados['fidelidade'].map(map_fidelidade)
+# dados['fidelidade'] = dados['fidelidade'].map(map_fidelidade)
 
 # Aplicando One-Hot Encoding
 for cat in cats:

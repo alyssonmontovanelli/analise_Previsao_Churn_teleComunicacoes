@@ -52,7 +52,7 @@ print(acuracia_v2)
 
 
 ''' Recriação do modelo - hiperparams otimizados'''
-modelo_v2 = DecisionTreeClassifier(max_depth=7, min_samples_leaf=3)
+modelo_v2 = DecisionTreeClassifier(max_depth=6, min_samples_leaf=3, min_samples_split=5)
 modelo_v2.fit(X_treino, y_treino)
 
 # Variáceis mais importantes
