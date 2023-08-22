@@ -19,7 +19,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
-from sklearn.metrics import roc_curve, auc, roc_auc_score, confusion_matrix
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import roc_curve, auc, roc_auc_score, confusion_matrix, classification_report
 from sklearn.metrics import accuracy_score
 
 '''
