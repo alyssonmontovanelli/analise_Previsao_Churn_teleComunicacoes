@@ -83,3 +83,6 @@ print(y_res.value_counts()) # 0 = 3622 e 1 = 3622
 for i in dados:
     valor_correlacao = dados[['Churn',i]].corr().loc['Churn',i]
     print(f"Correlacao de {i} com Churn: {valor_correlacao}")
+
+
+print(X_treino.columns)
