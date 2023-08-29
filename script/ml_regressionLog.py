@@ -54,7 +54,7 @@ acuracia_v1 = accuracy_score(y_teste, y_pred_v1)
 print(acuracia_v1)
 
 # Construção do modelo sem o GridSearchVC
-modelo_v1 = LogisticRegression(C = 1000)
+modelo_v1 = LogisticRegression(C=10000, max_iter=1000, solver='liblinear')
 modelo_v1.fit(X_treino, y_treino)
 
 # Variáveis mais relevantes
@@ -71,7 +71,38 @@ dict_modelo_v1 = {'Nome': ['modelo_v1'],
                   'Algoritmo': ['Logistic Regression'], 
                   'ROC_AUC Score': [roc_auc_v1],
                   'AUC Score': [auc_v1],
-                  'Acurácia': [acuracia_v1]}
+                  'Acuracia': [acuracia_v1]}
 df_modelo_v1 = pd.DataFrame(dict_modelo_v1)
 print(df_modelo_v1)
+
+
+'''
+contrato_Two year
+contrato_One year
+fidelidade
+forma_pagamento_Credit card (automatic)
+fatura_sem_papel_No
+forma_pagamento_Mailed check
+forma_pagamento_Bank transfer (automatic)
+contrato_Month-to-month
+forma_pagamento_Electronic check
+fatura_sem_papel_Yes
+valor_total_pago
+casado(a)_Yes
+Streaming_TV_No
+casado(a)_No
+possuiDependente_Yes
+idoso_No
+Streaming_TV_Yes
+suporte_tecnico_Yes
+possuiDependente_No
+idoso_Yes
+Streaming_TV_No internet service
+servico_internet_No
+suporte_tecnico_No internet service
+suporte_tecnico_No
+valor_mensal
+servico_internet_DSL
+servico_internet_Fiber optic
+'''
 

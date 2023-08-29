@@ -38,23 +38,6 @@ map_idoso = {
     1: 'Yes'
 }
 
-'''
-Mapeamento fidelidade
-'''
-def map_fidelidade(mes):
-    if 0 <= mes <=12:
-        return '-1 ano'
-    elif 13 <= mes <= 24:
-        return '1 a 2 anos'
-    elif 25 <= mes <= 36:
-        return '2 a 3 anos'
-    elif 37 <= mes <= 48:
-        return '3 a 4 anos'
-    elif 49 <= mes <= 60:
-        return '4 a 5 anos'
-    elif mes > 60:
-        return '+5 anos'
-
 
 cats = ['idoso', 'casado(a)', 'possuiDependente', 'servico_internet',
         'suporte_tecnico', 'Streaming_TV', 'contrato','fatura_sem_papel',

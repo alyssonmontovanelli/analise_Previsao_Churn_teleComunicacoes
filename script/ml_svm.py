@@ -52,7 +52,7 @@ dict_modelo_v5 = {
     'Algoritmo': ['SVM'],
     'ROC_AUC Score': [roc_auc_v5],
     'AUC Score': [auc_v5],
-    'Acurácia':[acuracia_v5]
+    'Acuracia':[acuracia_v5]
 }
 df_modelos_v5 = pd.DataFrame(dict_modelo_v5)
 print(df_modelos_v5)

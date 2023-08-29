@@ -52,7 +52,7 @@ print(acuracia_v2)
 
 
 ''' Recriação do modelo - hiperparams otimizados'''
-modelo_v2 = DecisionTreeClassifier(max_depth=6, min_samples_leaf=3, min_samples_split=5)
+modelo_v2 = DecisionTreeClassifier(max_depth=7, min_samples_leaf=2)
 modelo_v2.fit(X_treino, y_treino)
 
 # Variáceis mais importantes
@@ -64,48 +64,41 @@ for feature in X.columns[indices]:
 
 
 
-''' Maior relevancia
-contrato_Month-to-month
-valor_total_pago
-valor_mensal
+'''fidelidade
 servico_internet_Fiber optic
+valor_mensal
 contrato_One year
+valor_total_pago
 contrato_Two year
-Streaming_TV_No internet service
 fatura_sem_papel_No
-suporte_tecnico_Yes
-forma_pagamento_Bank transfer (automatic)
-Streaming_TV_No
-possuiDependente_Yes
-fidelidade_2 a 3 anos
+servico_internet_No
 possuiDependente_No
-fidelidade_+5 anos
 forma_pagamento_Credit card (automatic)
-fidelidade_4 a 5 anos
-idoso_Yes
+suporte_tecnico_Yes
 forma_pagamento_Mailed check
 casado(a)_Yes
-Streaming_TV_Yes
-fidelidade_-1 ano
+Streaming_TV_No internet service
+fatura_sem_papel_Yes
+forma_pagamento_Bank transfer (automatic)
+idoso_No
 suporte_tecnico_No
 forma_pagamento_Electronic check
-servico_internet_No
-servico_internet_DSL
 casado(a)_No
-fatura_sem_papel_Yes
-idoso_No
-fidelidade_3 a 4 anos
+servico_internet_DSL
+Streaming_TV_No
+Streaming_TV_Yes
+possuiDependente_Yes
+idoso_Yes
 suporte_tecnico_No internet service
-fidelidade_1 a 2 anos
 '''
 
 with open('modelos/modelo_v2.pkl', 'wb') as pickle_file:
     joblib.dump(modelo_v2, 'modelos/modelo_v2.pkl')
 
-dict_modelo_v2 = {'Nome': ['modelo_v1'], 
-                  'Algoritmo': ['Logistic Regression'], 
+dict_modelo_v2 = {'Nome': ['modelo_v2'], 
+                  'Algoritmo': ['Decision Tree'], 
                   'ROC_AUC Score': [roc_auc_v2],
                   'AUC Score': [auc_v2],
-                  'Acurácia': [acuracia_v2]}
-df_modelo_v1 = pd.DataFrame(dict_modelo_v2)
-print(df_modelo_v1)
+                  'Acuracia': [acuracia_v2]}
+df_modelo_v2 = pd.DataFrame(dict_modelo_v2)
+print(df_modelo_v2)

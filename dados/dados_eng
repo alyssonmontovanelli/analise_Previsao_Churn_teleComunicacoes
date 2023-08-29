@@ -434,7 +434,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,No,No,2,DSL,No,No,Month-to-month,No,Electronic check,53.45,119.5,No
 0,No,No,12,DSL,No,No,Month-to-month,Yes,Bank transfer (automatic),45.4,518.9,Yes
 0,Yes,No,41,No,No internet service,No internet service,Two year,Yes,Electronic check,19.75,899.45,No
-0,No,No,26,DSL,Yes,Yes,Month-to-month,Yes,Credit card (automatic),44.45,1183.8,No
 0,Yes,No,36,No,No internet service,No internet service,One year,No,Bank transfer (automatic),20.85,720.05,No
 0,Yes,Yes,72,Fiber optic,Yes,Yes,Two year,Yes,Credit card (automatic),114.05,8468.2,No
 0,Yes,No,35,Fiber optic,Yes,No,Month-to-month,Yes,Bank transfer (automatic),89.85,3161.2,No
@@ -487,7 +486,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,Yes,Yes,72,Fiber optic,No,No,Two year,Yes,Credit card (automatic),84.5,6130.85,No
 0,No,No,15,Fiber optic,No,Yes,Month-to-month,Yes,Electronic check,100.15,1415.0,No
 0,No,No,72,DSL,Yes,Yes,Two year,Yes,Bank transfer (automatic),88.6,6201.95,No
-0,Yes,Yes,0,DSL,Yes,Yes,Two year,Yes,Bank transfer (automatic),52.55,52.55,No
 0,No,Yes,1,Fiber optic,No,No,Month-to-month,Yes,Electronic check,74.35,74.35,Yes
 0,Yes,Yes,63,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),104.8,6597.25,No
 0,No,No,2,DSL,No,Yes,Month-to-month,Yes,Electronic check,59.0,114.15,No
@@ -1132,7 +1130,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,Yes,Yes,26,No,No internet service,No internet service,Two year,Yes,Credit card (automatic),19.15,515.75,No
 0,Yes,No,14,DSL,No,Yes,Month-to-month,Yes,Bank transfer (automatic),64.7,941.0,Yes
 1,Yes,No,11,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),104.05,1133.65,Yes
-0,No,Yes,2,No,No internet service,No internet service,Month-to-month,No,Mailed check,19.25,48.35,No
 0,Yes,Yes,26,Fiber optic,No,No,Month-to-month,No,Electronic check,81.95,2070.05,No
 1,Yes,No,72,Fiber optic,Yes,Yes,Two year,Yes,Bank transfer (automatic),114.65,8333.95,No
 0,Yes,Yes,63,No,No internet service,No internet service,Two year,No,Credit card (automatic),20.0,1209.25,No
@@ -1226,7 +1223,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,Yes,Yes,1,DSL,No,No,Month-to-month,Yes,Mailed check,45.85,45.85,Yes
 0,Yes,No,16,DSL,Yes,Yes,Month-to-month,Yes,Electronic check,49.95,810.2,Yes
 0,Yes,No,72,No,No internet service,No internet service,Two year,No,Bank transfer (automatic),24.65,1830.05,No
-0,No,No,30,Fiber optic,No,No,One year,No,Bank transfer (automatic),90.4,2820.65,No
 0,Yes,No,49,Fiber optic,No,Yes,Month-to-month,Yes,Mailed check,100.85,4847.35,No
 0,Yes,No,61,DSL,Yes,No,Two year,No,Credit card (automatic),75.35,4729.3,No
 0,Yes,Yes,47,Fiber optic,No,Yes,Month-to-month,No,Electronic check,87.2,4017.45,No
@@ -3307,7 +3303,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 1,No,No,38,Fiber optic,No,Yes,Month-to-month,No,Electronic check,94.75,3653.0,No
 0,Yes,Yes,3,Fiber optic,Yes,No,Month-to-month,Yes,Electronic check,80.0,241.3,No
 0,Yes,Yes,48,DSL,Yes,Yes,Two year,No,Electronic check,79.65,3870.3,No
-0,Yes,No,15,No,No internet service,No internet service,Two year,No,Mailed check,25.2,387.9,No
 0,No,No,25,No,No internet service,No internet service,One year,No,Credit card (automatic),19.9,527.5,No
 1,No,No,1,Fiber optic,No,Yes,Month-to-month,No,Electronic check,78.45,78.45,Yes
 0,No,No,48,DSL,No,Yes,Month-to-month,Yes,Electronic check,44.8,2104.55,No
@@ -3658,7 +3653,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 1,Yes,No,49,DSL,No,No,Two year,No,Mailed check,49.8,2398.4,No
 0,Yes,Yes,37,No,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),24.1,861.85,No
 0,No,No,10,DSL,Yes,No,Month-to-month,No,Electronic check,54.25,583.0,No
-0,Yes,No,67,Fiber optic,No,Yes,One year,No,Credit card (automatic),109.9,7332.4,No
 0,No,No,7,DSL,Yes,No,One year,Yes,Credit card (automatic),35.5,249.55,No
 0,No,No,51,Fiber optic,No,Yes,One year,No,Credit card (automatic),87.55,4475.9,No
 0,No,No,9,DSL,No,No,Month-to-month,No,Electronic check,45.15,416.45,Yes
@@ -5719,7 +5713,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 1,Yes,No,69,DSL,No,Yes,Two year,No,Credit card (automatic),56.55,3952.65,No
 0,No,No,6,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),80.5,463.05,Yes
 0,Yes,Yes,24,No,No internet service,No internet service,Two year,Yes,Mailed check,19.7,494.05,No
-0,No,No,32,Fiber optic,No,Yes,One year,Yes,Credit card (automatic),104.05,3416.85,No
 0,No,No,27,DSL,No,No,Two year,No,Bank transfer (automatic),52.85,1498.65,No
 1,Yes,No,27,Fiber optic,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),104.3,2867.75,Yes
 0,No,No,58,Fiber optic,Yes,No,Month-to-month,No,Bank transfer (automatic),80.65,4807.35,No
@@ -5765,7 +5758,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,No,No,3,Fiber optic,No,No,Month-to-month,Yes,Electronic check,70.25,229.7,No
 1,No,No,57,Fiber optic,Yes,No,Two year,No,Electronic check,93.75,5625.55,No
 1,Yes,No,68,Fiber optic,No,No,One year,Yes,Credit card (automatic),96.55,6581.9,Yes
-0,Yes,No,23,DSL,Yes,Yes,One year,No,Bank transfer (automatic),60.0,1347.15,No
 0,Yes,No,65,DSL,Yes,Yes,Two year,Yes,Credit card (automatic),59.8,3808.2,No
 0,Yes,No,44,Fiber optic,No,Yes,One year,Yes,Bank transfer (automatic),90.65,3974.15,No
 0,Yes,Yes,71,Fiber optic,No,Yes,Two year,Yes,Bank transfer (automatic),109.0,7661.8,No
@@ -6446,7 +6438,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,No,Yes,31,DSL,Yes,Yes,One year,Yes,Mailed check,79.45,2587.7,Yes
 0,No,No,4,Fiber optic,No,Yes,Month-to-month,No,Electronic check,90.65,367.95,No
 1,Yes,Yes,58,Fiber optic,Yes,No,One year,Yes,Bank transfer (automatic),89.85,5125.75,No
-0,No,No,60,DSL,Yes,Yes,One year,No,Mailed check,79.0,4801.1,No
 0,No,No,58,Fiber optic,Yes,Yes,One year,Yes,Electronic check,104.65,6219.6,Yes
 0,No,No,1,No,No internet service,No internet service,Month-to-month,No,Mailed check,19.55,19.55,No
 0,Yes,Yes,27,No,No internet service,No internet service,Two year,No,Mailed check,19.9,550.1,No
@@ -6458,7 +6449,6 @@ idoso,casado(a),possuiDependente,fidelidade,servico_internet,suporte_tecnico,Str
 0,No,Yes,50,Fiber optic,No,No,Two year,No,Credit card (automatic),70.35,3533.6,No
 0,Yes,Yes,17,DSL,No,Yes,One year,No,Credit card (automatic),44.45,792.15,No
 0,Yes,Yes,6,DSL,No,No,Month-to-month,Yes,Electronic check,49.15,295.65,No
-1,Yes,No,51,DSL,No,No,Month-to-month,Yes,Credit card (automatic),29.45,1459.35,No
 0,No,No,44,Fiber optic,Yes,Yes,Month-to-month,No,Electronic check,100.55,4398.15,Yes
 0,Yes,No,49,Fiber optic,No,Yes,Month-to-month,Yes,Credit card (automatic),85.3,4297.95,No
 0,No,No,2,Fiber optic,No,Yes,Month-to-month,No,Electronic check,95.65,167.3,Yes

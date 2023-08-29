@@ -29,7 +29,7 @@ grid_search.fit(X_treino, y_treino)
 print("Melhores Parâmetros:", grid_search.best_params_)
 
 
-modelo_v6 = MultinomialNB(alpha= 1.0, fit_prior= True)
+modelo_v6 = MultinomialNB(alpha= 0.1, fit_prior= True)
 modelo_v6.fit(X_treino, y_treino)
 
 # Previsões

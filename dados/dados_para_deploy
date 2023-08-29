@@ -1,0 +1,11 @@
+customerID,sexo,idoso,casado(a),possuiDependente,fidelidade,servico_telefonico,multiplas_linhas,servico_internet,seguranca_online,backup_online,protecao_dispositivo,suporte_tecnico,Streaming_TV,Streaming_filmes,contrato,fatura_sem_papel,forma_pagamento,valor_mensal,valor_total_pago,Churn
+8496-DMZUK,Male,0,No,No,30,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,No,One year,No,Bank transfer (automatic),90.4,2820.65,No
+4472-LVYGI,Female,0,Yes,Yes,0,No,No phone service,DSL,Yes,No,Yes,Yes,Yes,No,Two year,Yes,Bank transfer (automatic),52.55,52.55,No
+3156-QLHBO,Male,0,No,Yes,2,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,19.25,48.35,No
+1183-CANVH,Female,0,Yes,No,23,Yes,No,DSL,No,No,No,Yes,Yes,No,One year,No,Bank transfer (automatic),60.0,1347.15,No
+2706-QZIHY,Female,0,Yes,No,15,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,25.2,387.9,No
+8782-NUUOL,Male,0,No,No,60,Yes,No,DSL,Yes,No,Yes,Yes,Yes,Yes,One year,No,Mailed check,79.0,4801.1,No
+2325-WINES,Female,0,No,No,32,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Credit card (automatic),104.05,3416.85,No
+0795-GMVQO,Male,0,Yes,No,67,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,One year,No,Credit card (automatic),109.9,7332.4,No
+3256-EZDBI,Male,1,Yes,No,51,No,No phone service,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),29.45,1459.35,No
+2320-SLKMB,Female,0,No,No,26,No,No phone service,DSL,No,No,Yes,Yes,Yes,No,Month-to-month,Yes,Credit card (automatic),44.45,1183.8,No

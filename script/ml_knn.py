@@ -21,7 +21,7 @@ for k in vizinhos:
 erro = [1 - x for x in cv_scores]
 # Determinando o melhor valor de k ( com menor erro )
 optimal_k = vizinhos[erro.index(min(erro))]
-print(f'O valor ideal de k: {optimal_k}')
+# print(f'O valor ideal de k: {optimal_k}')
 
 # Criação do modelo
 modelo_v3 = KNeighborsClassifier(n_neighbors = 101)
@@ -29,27 +29,24 @@ modelo_v3.fit(X_treino, y_treino)
 
 # Previsões
 y_pred_v3 = modelo_v3.predict(X_teste)
-print(y_pred_v3[:10])
+# print(y_pred_v3[:10])
 
 # Matriz de confusão
-print(confusion_matrix(y_teste, y_pred_v3))
+# print(confusion_matrix(y_teste, y_pred_v3))
 
 # Probabilidade
 y_proba_v3 = modelo_v3.predict_proba(X_teste)[:,1]
-print(modelo_v3.predict_proba(X_teste)[:10])
+# print(modelo_v3.predict_proba(X_teste)[:10])
 
 # ROC_AUC em teste
 roc_auc_v3 = roc_auc_score(y_teste, y_pred_v3)
-print(roc_auc_v3)
 
 # Calculando AUC em Teste
 fpr_v3, tpr_v3, thresholds = roc_curve(y_teste, y_proba_v3)
 auc_v3 = auc(fpr_v3, tpr_v3)
-print(auc_v3)
 
 # Calculando a acurácia
 acuracia_v3 = accuracy_score(y_teste, y_pred_v3)
-print(acuracia_v3)
 
 # DF com métricas
 dict_modelo_v3 = {
@@ -57,11 +54,11 @@ dict_modelo_v3 = {
     'Algoritmo': ['KNN'],
     'ROC_AUC Score': [roc_auc_v3],
     'AUC Score': [auc_v3],
-    'Acurácia':[acuracia_v3]
+    'Acuracia':[acuracia_v3]
 }
 
 df_modelos_v3 = pd.DataFrame(dict_modelo_v3)
-print(df_modelos_v3.head())
+print(df_modelos_v3)
 
 # Salvanndo novamente o modelo em disco 
 with open('modelos/modelo_v3.pkl', 'wb') as pickle_file:

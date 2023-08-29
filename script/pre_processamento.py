@@ -67,7 +67,7 @@ X_treino, X_teste, y_treino, y_teste = train_test_split(X,
                                                         stratify = dados.Churn)
 
 ''' Balanceamento da classe alvo nos dados de treino'''
-# print(y_treino.value_counts()) # 0=3622 e 1=1308
+print(y_treino.value_counts()) # 0=3622 e 1=1308
 
 over_sampler = SMOTE(k_neighbors = 2)
 # Aplica o oversampling com dados de treino
@@ -77,8 +77,9 @@ x_res, y_res = over_sampler.fit_resample(X_treino, y_treino)
 X_treino = x_res
 y_treino = y_res
 
-# print(y_res.value_counts()) # 0 = 3622 e 1 = 3622
+print(y_res.value_counts()) # 0 = 3622 e 1 = 3622
 # Variável 
 
-
-
+for i in dados:
+    valor_correlacao = dados[['Churn',i]].corr().loc['Churn',i]
+    print(f"Correlacao de {i} com Churn: {valor_correlacao}")
