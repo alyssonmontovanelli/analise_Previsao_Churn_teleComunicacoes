@@ -1,4 +1,4 @@
-0 customerID        7043 non-null   object 
+0    customerID        7043 non-null   object 
  1   gender            Sexo 
  2   SeniorCitizen     Se é idoso ou não (1/0) 
  3   Partner           Se cliente tem sócio ou não (Sim/Não)
