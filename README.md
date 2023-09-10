@@ -1,4 +1,4 @@
-<h1 align="center"> Análise de Dados e Previsão de Cancelamentos - Telco Comunicações S/A</h1>
+<h1 align="center"> Análise de Dados e Previsão de Cancelamentos (Churn) - Telco Comunicações S/A</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
