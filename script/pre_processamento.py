@@ -9,10 +9,9 @@ dados_copy = dados.copy()
 Label Encoding para variável target - Churn
 """
 
-# Criando objeto Encoder e realizar treino
+# Criando objeto Encoder 
 le = LabelEncoder()
 le.fit(dados.Churn)
-
 # Aplica objeto encoder
 dados.Churn = le.transform(dados.Churn)
 
@@ -26,6 +25,7 @@ dados['idoso'] = dados['idoso'].map(map_idoso)
 # dados['fidelidade'] = dados['fidelidade'].map(map_fidelidade)
 
 # Aplicando One-Hot Encoding
+
 for cat in cats:
     onehots = pd.get_dummies(dados[cat], prefix=cat)
     dados = dados.join(onehots)
@@ -42,7 +42,8 @@ for x in variaveis_processadas:
 """
 
 for n in nums_valores:
-    dados[n] = MinMaxScaler().fit_transform(dados[n].values.reshape(len(dados), 1))
+    dados[n] = MinMaxScaler().fit_transform(dados[n].\
+                values.reshape(len(dados), 1))
 
 # Salvando novo dataset processado
 dados.to_csv('./dados/dados_processados.csv', sep=',', encoding = 'utf-8', index = False)
